@@ -1,10 +1,30 @@
 ﻿namespace UnitTestsApp
 {
-    public class Customer
+    public interface ICustomer
     {
-        public string greetMessage { get; set; }
-        public int Discount = 15;
+        int Discount { get; set; }
+        int OrderTotal { get; set; }
+        string GreetMessage { get; set; }
+        bool IsPlatinum { get; set; }
+        string GreetAndCombineNames(string firstName, string lastName);
+        CustomerType GetCustomerDetails();
+    }
+
+    public class Customer : ICustomer
+    {
+        //public int Discount = 15;
+        public int Discount { get; set; }
+        public string greetMessage { get; set; }        
         public int OrderTotal { get; set; }
+        public bool IsPlatinum { get; set; }
+        int ICustomer.Discount { get; set; }
+        public string GreetMessage { get; set; }
+
+        public Customer()
+        {
+            Discount = 15;
+            IsPlatinum = false;
+        }
 
         public string GreetAndCombineNames(string firstName, string lastName)
         {

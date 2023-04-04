@@ -2,7 +2,6 @@ C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\CoverletSo
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\testhost.dll
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\testhost.exe
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\UnitTestsAppMSTest.deps.json
@@ -100,3 +99,16 @@ C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\obj\Debug\net6.0\refint\Uni
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\obj\Debug\net6.0\UnitTestsAppMSTest.pdb
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\obj\Debug\net6.0\UnitTestsAppMSTest.genruntimeconfig.cache
 C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\obj\Debug\net6.0\ref\UnitTestsAppMSTest.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsAppMSTest\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
