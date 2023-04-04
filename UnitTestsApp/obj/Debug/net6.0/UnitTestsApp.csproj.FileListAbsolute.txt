@@ -1,0 +1,12 @@
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\bin\Debug\net6.0\UnitTestsApp.deps.json
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\bin\Debug\net6.0\UnitTestsApp.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\bin\Debug\net6.0\UnitTestsApp.pdb
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\UnitTestsApp.csproj.AssemblyReference.cache
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\UnitTestsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\UnitTestsApp.AssemblyInfoInputs.cache
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\UnitTestsApp.AssemblyInfo.cs
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\UnitTestsApp.csproj.CoreCompileInputs.cache
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\UnitTestsApp.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\refint\UnitTestsApp.dll
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\UnitTestsApp.pdb
+C:\Users\Somad\Music\UnitTestsApp\UnitTestsApp\obj\Debug\net6.0\ref\UnitTestsApp.dll
