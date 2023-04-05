@@ -27,18 +27,18 @@ namespace UnitTestsAppNUnitTest
         //    Assert.That(bankAccount.GetBalance(), Is.EqualTo(100));
         //}
 
-        [Test]
-        public void BankDepositLogFaker_Add100_ReturnTrue()
-        {
-            BankAccount bankAccount = new(new LogFaker());
-            var result = bankAccount.Deposit(100);
+        //[Test]
+        //public void BankDepositLogFaker_Add100_ReturnTrue()
+        //{
+        //    BankAccount bankAccount = new(new LogFaker());
+        //    var result = bankAccount.Deposit(100);
 
-            Assert.IsTrue(result);
-            Assert.That(bankAccount.GetBalance(), Is.EqualTo(100));
-        }
+        //    Assert.IsTrue(result);
+        //    Assert.That(bankAccount.GetBalance(), Is.EqualTo(100));
+        //}
 
         [Test]
-        public void BankDeposit_Add100_ReturnTrue()
+        public void BankDeposit_Add100_ReturnsTrue()
         {
             var logMock = new Mock<ILogBook>();
             logMock.Setup(x => x.Message(""));

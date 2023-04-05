@@ -95,18 +95,6 @@ namespace UnitTestsAppNUnitTest
         }
 
         [Test]
-        public void GreetChecker_EmptyFirstName_ThrowsException()
-        {
-            var exceptionDetails = Assert.Throws<ArgumentException>(() => customer.GreetAndCombineNames("", "Yessoufou"));
-            
-            Assert.AreEqual("Empty First Name", exceptionDetails.Message);
-            Assert.That(() => customer.GreetAndCombineNames("", "Yessoufou"), Throws.ArgumentException.With.Message.EqualTo("Empty First Name"));
-
-            Assert.Throws<ArgumentException>(() => customer.GreetAndCombineNames("", "Yessoufou"));
-            Assert.That(() => customer.GreetAndCombineNames("", "Yessoufou"), Throws.ArgumentException);
-        }
-
-        [Test]
         public void CustomerType_CreateCustomerWithLessThan100Orders_ReturnsBasicCustomer()
         {
             customer.OrderTotal = 10;

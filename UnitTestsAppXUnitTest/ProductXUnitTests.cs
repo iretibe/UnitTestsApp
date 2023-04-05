@@ -1,41 +1,41 @@
-﻿//using Moq;
-//using UnitTestsApp;
+﻿using Moq;
+using UnitTestsApp;
+using Xunit;
 
-//namespace UnitTestsAppXUnitTest
-//{
-//    [TestFixture]
-//    public class ProductXUnitTests
-//    {
-//        [Test]
-//        public void GetProductPrice_PlatinumCustomer_ReturnPriceWith20Discount() 
-//        {
-//            Product product = new Product()
-//            {
-//                Price = 50
-//            };
+namespace UnitTestsAppXUnitTest
+{
+    public class ProductXUnitTests
+    {
+        [Fact]
+        public void GetProductPrice_PlatinumCustomer_ReturnPriceWith20DiscountXUnit()
+        {
+            Product product = new Product()
+            {
+                Price = 50
+            };
 
-//            var result = product.GetPrice(new Customer()
-//            {
-//                IsPlatinum = true
-//            });
+            var result = product.GetPrice(new Customer()
+            {
+                IsPlatinum = true
+            });
 
-//            Assert.That(result, Is.EqualTo(40));
-//        }
+            Assert.Equal(40, result);
+        }
 
-//        [Test]
-//        public void GetProductPriceMOQAbuse_PlatinumCustomer_ReturnPriceWith20Discount()
-//        {
-//            var customer = new Mock<ICustomer>();
-//            customer.Setup(c => c.IsPlatinum).Returns(true);
+        [Fact]
+        public void GetProductPriceMOQAbuse_PlatinumCustomer_ReturnPriceWith20DiscountXUnit()
+        {
+            var customer = new Mock<ICustomer>();
+            customer.Setup(c => c.IsPlatinum).Returns(true);
 
-//            Product product = new Product()
-//            {
-//                Price = 50
-//            };
+            Product product = new Product()
+            {
+                Price = 50
+            };
 
-//            var result = product.GetPrice(customer.Object);
+            var result = product.GetPrice(customer.Object);
 
-//            Assert.That(result, Is.EqualTo(40));
-//        }
-//    }
-//}
+            Assert.Equal(40, result);
+        }
+    }
+}

@@ -1,40 +1,40 @@
-﻿//using UnitTestsApp;
+﻿using UnitTestsApp;
+using Xunit;
 
-//namespace UnitTestsAppXUnitTest
-//{
-//    [TestFixture]
-//    public class FiboXUnitTests
-//    {
-//        [Test]
-//        public void FiboChecker_Input1_ReturnFiboSeries()
-//        {
-//            List<int> fiboSeries = new() { 0 };
+namespace UnitTestsAppXUnitTest
+{
+    public class FiboXUnitTests
+    {
+        [Fact]
+        public void FiboChecker_Input1_ReturnFiboSeriesXUnit()
+        {
+            List<int> fiboSeries = new() { 0 };
 
-//            Fibo fibo = new ();
-//            fibo.Range = 1;
+            Fibo fibo = new();
+            fibo.Range = 1;
 
-//            List<int> result = fibo.GetFiboSeries();
+            List<int> result = fibo.GetFiboSeries();
 
-//            Assert.That(result, Is.Not.Empty);
-//            Assert.That(result, Is.Ordered);
-//            Assert.That(result, Is.EquivalentTo(fiboSeries));
-//        }
+            Assert.NotEmpty(result);
+            Assert.Equal(result.OrderBy(u => u), result);
+            Assert.True(result.SequenceEqual(fiboSeries));
+        }
 
-//        [Test]
-//        public void FiboChecker_Input6_ReturnFiboSeries()
-//        {
-//            List<int> fiboSeries = new() { 0, 1, 1, 2, 3, 5 };
+        [Fact]
+        public void FiboChecker_Input6_ReturnFiboSeriesXUnit()
+        {
+            List<int> fiboSeries = new() { 0, 1, 1, 2, 3, 5 };
 
-//            Fibo fibo = new();
-//            //fibo.Range = 3;
-//            fibo.Range = 6;
+            Fibo fibo = new();
+            //fibo.Range = 3;
+            fibo.Range = 6;
 
-//            List<int> result = fibo.GetFiboSeries();
+            List<int> result = fibo.GetFiboSeries();
 
-//            Assert.That(result, Does.Contain(3));
-//            Assert.That(result.Count, Is.EqualTo(6));
-//            Assert.That(result, Has.No.Member(4));
-//            Assert.That(result, Is.EquivalentTo(fiboSeries));
-//        }
-//    }
-//}
+            Assert.Contains(3, result);
+            Assert.Equal(6, result.Count);
+            Assert.DoesNotContain(4, result);
+            Assert.Equal(fiboSeries, result);
+        }
+    }
+}
